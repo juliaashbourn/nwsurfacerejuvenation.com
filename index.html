@@ -3,186 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NW Surface Rejuvenation LLC | Professional Surface Restoration & Pressure Washing</title>
+    <title>NW Surface Rejuvenation LLC | Heavy Surface Restoration & Technical Coating</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Work+Sans:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Syne:wght@700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
-        body { background-color: #ffffff; color: #1a1f26; font-family: 'Work Sans', sans-serif; overflow-x: hidden; }
-        .font-brutal { font-family: 'Syncopate', sans-serif; }
+        body { background-color: #0e1111; color: #f4f4f4; font-family: 'Space Grotesk', sans-serif; overflow-x: hidden; }
+        .font-syne { font-family: 'Syne', sans-serif; }
+        .font-mono-tech { font-family: 'Share Tech Mono', monospace; }
         
-        /* Industrial Pure & Neon Acid Palette */
-        .text-neon { color: #26e6a4; }
-        .bg-neon { background-color: #26e6a4; }
-        .border-neon { border-color: #26e6a4; }
-        .bg-dark-slate { background-color: #11151c; }
+        /* Electric Emerald & Slate Palette */
+        .text-emerald-neon { color: #00ff88; }
+        .bg-emerald-neon { background-color: #00ff88; }
+        .border-emerald-neon { border-color: #00ff88; }
         
-        /* Smooth Scroll Industrial Reveals */
-        .reveal { transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1); opacity: 0; transform: translateY(50px); }
+        /* Structural Kinetic Mesh Lines */
+        .kinetic-mesh {
+            background-image: radial-gradient(rgba(0, 255, 136, 0.02) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        
+        /* Ultra-Long Scroll Linear Fades */
+        .reveal { transition: all 1.4s cubic-bezier(0.19, 1, 0.22, 1); opacity: 0; transform: translateY(60px); }
         .reveal.active { opacity: 1; transform: translateY(0); }
         
-        /* Custom Ultra-Thin Scrollbar */
-        ::-webkit-scrollbar { width: 4px; }
-        ::-webkit-scrollbar-track { background: #ffffff; }
-        ::-webkit-scrollbar-thumb { background: #11151c; }
+        /* Custom Fluid Scrollbar */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #0e1111; }
+        ::-webkit-scrollbar-thumb { background: #00ff88; }
 
-        .strike-link {
+        .btn-kinetic {
             position: relative;
+            transition: all 0.4s ease;
         }
-        .strike-link::after {
-            content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background-color: #26e6a4;
-            transition: width 0.3s ease;
+        .btn-kinetic:hover {
+            background-color: #00ff88;
+            color: #0e1111;
+            box-shadow: 0 0 25px rgba(0, 255, 136, 0.4);
         }
-        .strike-link:hover::after { width: 100%; }
     </style>
 </head>
-<body class="antialiased">
+<body class="antialiased kinetic-mesh">
 
-    <!-- Industrial Minimal Nav -->
-    <nav class="fixed w-full z-50 py-6 px-6 md:px-16 bg-white/90 backdrop-blur-md border-b border-stone-100">
+    <!-- Mechanical Axis Alignment Lines -->
+    <div class="fixed top-0 left-12 w-[1px] h-full bg-stone-900 pointer-events-none z-0"></div>
+    <div class="fixed top-0 right-12 w-[1px] h-full bg-stone-900 pointer-events-none z-0"></div>
+
+    <!-- Technical Header Navigation -->
+    <nav class="fixed w-full z-50 py-5 px-6 md:px-16 bg-[#0e1111]/90 backdrop-blur-md border-b border-stone-900">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="font-brutal text-sm md:text-base tracking-wider text-dark-slate">
-                NW SURFACE <span class="text-neon">REJUVENATION</span>
+            <div class="font-syne text-xl md:text-2xl tracking-tighter text-white uppercase">
+                NW SURFACE <span class="text-emerald-neon font-light">REJUVENATION</span>
             </div>
-            <div class="hidden md:flex items-center space-x-12 text-[10px] font-bold uppercase tracking-widest text-stone-500">
-                <a href="#matrix" class="strike-link hover:text-dark-slate transition">01 // Scope</a>
-                <a href="#registry" class="strike-link hover:text-dark-slate transition">02 // Info</a>
-                <a href="#action" class="bg-dark-slate text-white px-6 py-3 rounded-none hover:bg-neon hover:text-dark-slate transition duration-300 tracking-normal normal-case text-xs font-bold">Deploy Request</a>
+            <div class="hidden lg:flex items-center space-x-12 font-mono-tech text-xs tracking-widest uppercase">
+                <a href="#structural-matrix" class="text-stone-400 hover:text-emerald-neon transition">// 01. RESTORATION</a>
+                <a href="#registry-data" class="text-stone-400 hover:text-emerald-neon transition">// 02. REGISTRY</a>
+                <a href="#technical-dispatch" class="text-stone-400 hover:text-emerald-neon transition">// 03. DISPATCH</a>
             </div>
         </div>
     </nav>
 
-    <!-- Stage 1: Absolute Pure Opening (Hero) -->
-    <section class="min-h-screen flex items-center relative px-6 md:px-16 bg-white overflow-hidden">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center w-full pt-20">
-            <div class="lg:col-span-7 z-10">
-                <span class="text-dark-slate font-bold tracking-[0.3em] text-[10px] uppercase mb-4 block flex items-center gap-2">
-                    <span class="w-2 h-2 bg-neon rounded-full"></span> High-Performance Restoration
-                </span>
-                <h1 class="font-brutal text-4xl md:text-6xl text-dark-slate leading-tight tracking-tight mb-8">
-                    WE RECLAIM <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-stone-800 to-stone-500">SURFACE INTEGRITY.</span>
+    <!-- Stage 1: Spatial Kinetic Hub (Hero) -->
+    <section class="min-h-screen flex items-center justify-center relative px-6 md:px-16 z-10 pt-24">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-center w-full">
+            <div class="lg:col-span-7">
+                <div class="inline-flex items-center gap-3 px-4 py-1.5 bg-emerald-neon/5 border border-emerald-neon/20 mb-8">
+                    <span class="w-1.5 h-1.5 bg-emerald-neon animate-pulse"></span>
+                    <span class="text-emerald-neon font-mono-tech text-[11px] tracking-widest uppercase">SYSTEM PRESSURE: OPTIMAL</span>
+                </div>
+                <h1 class="font-syne text-5xl md:text-8xl font-black text-white leading-none uppercase tracking-tight mb-8">
+                    RESTORING <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-neon to-teal-400">MATERIAL DECAY.</span>
                 </h1>
-                <p class="text-stone-600 text-sm md:text-base max-w-lg leading-relaxed mb-12 font-light">
-                    Industrial-grade hydro-blasting, chemical rejuvenation, and structural surface scaling. We strip away decades of environmental wear to reveal original structural strength.
+                <p class="text-stone-400 text-sm md:text-base max-w-xl leading-relaxed mb-12 font-light">
+                    NW Surface Rejuvenation LLC executes technical asset washing, ultra-high pressure blasting, and deep environmental material revitalization for structural architectures.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-6">
-                    <a href="#matrix" class="bg-dark-slate text-white font-bold text-xs tracking-widest uppercase px-8 py-4 rounded-none hover:bg-neon hover:text-dark-slate transition duration-300 text-center">
-                        Operational Scope
-                    </a>
-                    <a href="tel:19379672476" class="text-dark-slate font-bold text-xs tracking-widest uppercase py-4 flex items-center justify-center gap-2 transition hover:text-neon">
-                        [ +1 (937) 967-2476 ]
+                    <a href="#structural-matrix" class="border-2 border-emerald-neon text-white font-mono-tech text-xs tracking-wider uppercase px-8 py-4 rounded-none btn-kinetic text-center">Execute Matrix Scan</a>
+                    <a href="tel:19379672476" class="bg-stone-900 text-stone-300 font-mono-tech text-xs px-8 py-4 hover:text-white transition duration-300 text-center flex items-center justify-center gap-2">
+                        +1 (937) 967-2476
                     </a>
                 </div>
             </div>
             
-            <!-- High-Contrast Clean Processing Image -->
-            <div class="lg:col-span-5 w-full h-[45vh] lg:h-[65vh] bg-stone-100 relative grayscale hover:grayscale-0 transition duration-700 ease-in-out">
-                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover" alt="Industrial Power Washing and High Pressure Surface Restoration">
-                <div class="absolute inset-0 bg-gradient-to-tr from-dark-slate/20 to-transparent"></div>
+            <!-- Structural Raw Grayscale Imagery with Color Accents -->
+            <div class="lg:col-span-5 relative h-[45vh] lg:h-[65vh] w-full bg-stone-900 p-1 border border-stone-800">
+                <div class="w-full h-full relative overflow-hidden group">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover brightness-95 group-hover:scale-105 transition duration-700 filter saturate-50 contrast-125" alt="Industrial Structural Pressure Washing Operation Resurfacing Surface">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0e1111] via-transparent to-transparent"></div>
+                </div>
+                <div class="absolute bottom-4 right-4 font-mono-tech text-[10px] text-emerald-neon bg-black px-3 py-1">// LAYER_RENEWAL_01</div>
             </div>
         </div>
     </section>
 
-    <!-- Stage 2: Corporate Registry Blueprint (Deep Scroll 1) -->
-    <section id="registry" class="py-40 px-6 md:px-16 bg-stone-50 border-y border-stone-200/50">
-        <div class="max-w-5xl mx-auto reveal">
-            <span class="text-stone-400 font-bold tracking-widest text-[10px] block mb-4">LOGISTICAL OVERVIEW</span>
-            <div class="h-[1px] w-full bg-stone-200 mb-10"></div>
-            <div class="grid md:grid-cols-12 gap-8 items-start">
-                <div class="md:col-span-4 font-brutal text-sm tracking-wider text-dark-slate pt-1">
-                    ENTITY STATUS
-                </div>
-                <div class="md:col-span-8 text-stone-700 font-light text-base md:text-xl leading-relaxed">
-                    Based on the documented infrastructure of **image_8d2a16.jpg**, NW Surface Rejuvenation LLC executes specialized architectural treatments under the direct management of key principal **Timothy E Black**. We deploy heavy-duty blast-cleaning and rehabilitation assets from our localized headquarters station:
-                    <span class="block text-dark-slate font-bold text-base mt-6 uppercase tracking-wider">
-                        907 SE Albertine St, Hillsboro, OR, 97123-5191, United States
-                    </span>
+    <!-- Stage 2: Verified Corporate Alignment Registry (Deep Scroll 1) -->
+    <section id="registry-data" class="py-48 px-6 md:px-16 bg-[#0a0c0c] border-y border-stone-900 relative">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-4 reveal">
+                <span class="text-emerald-neon font-mono-tech tracking-widest text-[11px] uppercase block mb-3">// RECORD VALIDATION</span>
+                <h2 class="font-syne text-3xl md:text-5xl font-extrabold text-white uppercase tracking-tighter">
+                    OPERATIONAL ANCHOR
+                </h2>
+            </div>
+            <div class="lg:col-span-8 reveal text-stone-300 text-sm md:text-base space-y-6 leading-relaxed font-light">
+                <p>
+                    As verified under the corporate tracking criteria of **image_8c5461.jpg**, NW Surface Rejuvenation LLC operates with technical precision inside the specialized industrial sector of structural restoration and revitalization services. Managed under the leadership of key principal Timothy E Black, the entity commands field actions from its master coordinate hub:
+                </p>
+                <div class="border-l-2 border-emerald-neon pl-6 py-2 font-mono-tech text-sm text-white tracking-wide max-w-xl">
+                    <p class="text-stone-500 text-xs uppercase mb-1">// PRIMARY FIELD GEOLOCATION:</p>
+                    <p class="font-sans text-base font-bold tracking-normal text-emerald-neon">907 SE Albertine St, Hillsboro, OR, 97123-5191, United States</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Stage 3: Restoration Operations Matrix (Deep Scroll 2) -->
-    <section id="matrix" class="py-44 px-6 md:px-16 bg-white">
+    <!-- Stage 3: High-Pressure Restoration Vectors (Deep Scroll 2) -->
+    <section id="structural-matrix" class="py-48 px-6 md:px-16">
         <div class="max-w-7xl mx-auto">
-            <div class="mb-32 reveal">
-                <span class="text-stone-400 font-bold uppercase tracking-widest text-[10px] block mb-2">Capabilities List</span>
-                <h2 class="font-brutal text-2xl md:text-3xl text-dark-slate">REJUVENATION WORKFLOWS</h2>
+            <div class="mb-32 text-left reveal">
+                <span class="text-emerald-neon font-mono-tech uppercase tracking-[0.3em] text-[11px] block mb-2">// RESTORATION VECTOR ARRAYS</span>
+                <h2 class="font-syne text-4xl md:text-6xl font-black text-white uppercase tracking-tighter">TECHNICAL CAPABILITIES</h2>
             </div>
 
-            <!-- Absolute Flowing Layout - Zero Enclosing Boxes -->
-            <div class="space-y-44">
-                <!-- Workflow item 1 -->
-                <div class="grid lg:grid-cols-12 gap-16 items-center reveal">
-                    <div class="lg:col-span-6 h-80 w-full overflow-hidden bg-stone-100">
-                        <img src="https://images.unsplash.com/photo-1528740564264-7a952378b330?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter contrast-105" alt="High Pressure Jet Spray Hydro Blasting Concrete Rejuvenation">
+            <!-- Absolute Flowing Grid without Boxes -->
+            <div class="grid lg:grid-cols-2 gap-20">
+                <!-- Vector 1 -->
+                <div class="reveal group">
+                    <div class="overflow-hidden mb-8 h-80 bg-stone-900 border border-stone-800">
+                        <img src="https://images.unsplash.com/photo-1528740564264-7a952378b330?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter saturate-50 contrast-125 group-hover:filter-none transition duration-500" alt="High Pressure Hydro Blasting Stripping Moss Concrete Renewal">
                     </div>
-                    <div class="lg:col-span-6">
-                        <span class="text-stone-400 font-bold text-[11px] block mb-2">METHOD 01 // HYDRO-RENEWAL</span>
-                        <h3 class="font-brutal text-lg text-dark-slate mb-4">High-Pressure Blast Restorations</h3>
-                        <p class="text-stone-600 text-sm leading-relaxed font-light">Eradication of industrial atmospheric carbon, microbial moss layers, and deep-set concrete stains using precision-calibrated thermal water jets.</p>
-                    </div>
+                    <span class="text-emerald-neon font-mono-tech text-xs block mb-2">// ENGINE MODE .01</span>
+                    <h3 class="font-syne text-2xl text-white uppercase mb-3">Hydro-Blast Rejuvenation</h3>
+                    <p class="text-stone-400 text-xs leading-relaxed font-light">Deploying ultra-calibrated water streams to eliminate deep carbon crusts, oxidation layers, and microbial moss from mineral and concrete surfaces.</p>
                 </div>
 
-                <!-- Workflow item 2 -->
-                <div class="grid lg:grid-cols-12 gap-16 items-center reveal lg:flex-row-reverse">
-                    <div class="lg:order-last lg:col-span-6 h-80 w-full overflow-hidden bg-stone-100">
-                        <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover" alt="Commercial Building Architecture Surface Wash and Cleaning Maintenance">
+                <!-- Vector 2 -->
+                <div class="reveal group lg:translate-y-16">
+                    <div class="overflow-hidden mb-8 h-80 bg-stone-900 border border-stone-800">
+                        <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter saturate-50 contrast-125 group-hover:filter-none transition duration-500" alt="Commercial Real Estate Structural Exterior Facade Washing">
                     </div>
-                    <div class="lg:col-span-6">
-                        <span class="text-stone-400 font-bold text-[11px] block mb-2">METHOD 02 // COATINGS & SCALING</span>
-                        <h3 class="font-brutal text-lg text-dark-slate mb-4">Structural Building Stripping</h3>
-                        <p class="text-stone-600 text-sm leading-relaxed font-light">Complete restoration of natural masonry, limestone facings, and exterior structural elements to restore structural breathability and visual prestige.</p>
-                    </div>
+                    <span class="text-emerald-neon font-mono-tech text-xs block mb-2">// ENGINE MODE .02</span>
+                    <h3 class="font-syne text-2xl text-white uppercase mb-3">Architectural Scaling & Wash</h3>
+                    <p class="text-stone-400 text-xs leading-relaxed font-light">Substrate stripping and multi-tiered washing for commercial property envelopes, ensuring pristine real estate presentation and structural longevity.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Stage 4: Monolithic Text Strike (Deep Scroll 3) -->
-    <section class="py-36 bg-dark-slate text-white relative">
-        <div class="max-w-5xl mx-auto px-6 reveal text-center">
-            <h3 class="font-brutal text-xl md:text-3xl leading-snug tracking-wide text-white">
-                SURFACE RESTORATION IS THE FIRST STEP TOWARDS <span class="text-neon">ARCHITECTURAL PRESERVATION.</span>
+    <!-- Stage 4: Monolithic Mechanical Banner (Deep Scroll 3) -->
+    <section class="py-40 relative overflow-hidden bg-gradient-to-r from-stone-950 to-black border-y border-stone-900">
+        <div class="absolute inset-0 bg-emerald-neon/5 opacity-20 pointer-events-none"></div>
+        <div class="max-w-5xl mx-auto text-center px-6 reveal">
+            <span class="text-emerald-neon font-mono-tech text-xs tracking-[0.4em] uppercase block mb-4">// RESTORATION AXIS</span>
+            <h3 class="font-syne text-3xl md:text-5xl text-white font-bold uppercase tracking-tight leading-tight">
+                "Stripping back the destructive layers of time to reveal original purity."
             </h3>
         </div>
     </section>
 
-    <!-- Stage 5: Minimalist Infinite Gateway (Deep Scroll 4) -->
-    <footer id="action" class="py-24 px-6 md:px-16 bg-white border-t border-stone-100">
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-end">
-            <div class="lg:col-span-7">
-                <span class="text-stone-400 font-bold tracking-widest text-[10px] block mb-4">COMMUNICATION DIRECTORY</span>
-                <h2 class="font-brutal text-2xl md:text-4xl text-dark-slate mb-12">INITIATE CLEANING CODE.</h2>
-                
-                <div class="space-y-8">
+    <!-- Stage 5: Fluid Operational Framework (Deep Scroll 4) -->
+    <section class="py-48 px-6 md:px-16 bg-[#0a0c0c]">
+        <div class="max-w-4xl mx-auto reveal text-center">
+            <span class="text-emerald-neon font-mono-tech text-xs tracking-widest block mb-4">// EXECUTION TIMELINE</span>
+            <h2 class="font-syne text-3xl md:text-4xl font-extrabold text-white mb-8">THE PURIFICATION PROCESS</h2>
+            <div class="space-y-12 text-left mt-16 max-w-2xl mx-auto">
+                <div class="border-b border-stone-900 pb-6">
+                    <h4 class="text-emerald-neon font-mono-tech text-xs mb-1">01 / SUBSTRATE ANALYSIS</h4>
+                    <p class="text-stone-400 text-xs font-light">We evaluate the density and degradation level of the target material to calibrate specific liquid force metrics.</p>
+                </div>
+                <div class="border-b border-stone-900 pb-6">
+                    <h4 class="text-white font-mono-tech text-xs mb-1">02 / DEEP KINETIC BLASTING</h4>
+                    <p class="text-stone-400 text-xs font-light">High-volume streams strip targeted molecular buildup without fracturing the underlying architectural layers.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-mono-tech text-xs mb-1">03 / SHIELD APPLICATION</h4>
+                    <p class="text-stone-400 text-xs font-light">Post-washing defensive sealing layers are deployed to insulate the surface against immediate atmospheric soot re-deposition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stage 6: Technical Terminal Interface Footer (Deep Scroll 5) -->
+    <footer id="technical-dispatch" class="py-28 px-6 md:px-16 bg-black border-t border-emerald-neon relative z-10">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="font-syne text-4xl md:text-6xl font-black mb-12 text-white tracking-tighter uppercase">INTAKE NODE</h2>
+                <div class="space-y-10">
                     <div>
-                        <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-1">// Digital Intake</span>
-                        <a href="mailto:admin@nwsurfacerejuvenation.com" class="text-lg md:text-xl font-bold text-dark-slate hover:text-neon transition break-all font-mono">admin@nwsurfacerejuvenation.com</a>
+                        <span class="text-stone-600 font-mono-tech text-[10px] tracking-widest block mb-1 uppercase">// DIGITAL SYSTEM COMMS</span>
+                        <a href="mailto:admin@nwsurfacerejuvenation.com" class="text-xl md:text-2xl font-bold text-emerald-neon hover:text-white transition tracking-wide break-all font-mono-tech">admin@nwsurfacerejuvenation.com</a>
                     </div>
                     <div>
-                        <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-1">// Voice Node</span>
-                        <a href="tel:19379672476" class="text-lg md:text-xl font-bold text-dark-slate hover:text-neon transition font-mono">+1 (937) 967-2476</a>
+                        <span class="text-stone-600 font-mono-tech text-[10px] tracking-widest block mb-1 uppercase">// ANALOG VOICE GATEWAY</span>
+                        <a href="tel:19379672476" class="text-xl md:text-2xl font-bold text-white hover:text-emerald-neon transition tracking-wide font-mono-tech">+1 (937) 967-2476</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="lg:col-span-5 lg:text-right mt-10 lg:mt-0">
-                <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-2">// Primary Coordinates</span>
-                <p class="text-stone-700 font-light text-sm md:text-base leading-relaxed uppercase tracking-wider">
+            <div class="lg:text-right flex flex-col justify-end items-start lg:items-end">
+                <span class="text-stone-600 font-mono-tech text-[10px] tracking-widest block mb-2 uppercase">// PHYSICAL COORDINATE DEPLOYMENT</span>
+                <p class="font-syne text-xl text-stone-300 tracking-tight uppercase leading-tight">
                     907 SE Albertine St<br>
                     Hillsboro, OR, 97123-5191<br>
                     United States
                 </p>
             </div>
         </div>
-        
-        <div class="max-w-7xl mx-auto mt-24 pt-8 border-t border-stone-100 flex flex-col md:flex-row justify-between text-[9px] text-stone-400 uppercase tracking-[0.2em] font-bold">
-            <p>&copy; 2026 NW SURFACE REJUVENATION LLC. ALL OPERATIONAL RIGS REGISTERED.</p>
-            <p>HILLSBORO HUB // OREGON, USA</p>
+        <div class="max-w-7xl mx-auto mt-24 pt-8 border-t border-stone-900/60 flex flex-col md:flex-row justify-between text-[10px] text-stone-600 uppercase tracking-widest font-mono-tech">
+            <p>&copy;  NW SURFACE REJUVENATION LLC. ALL POWER PROTOCOLS ENGAGED.</p>
+            <p>REGIONAL OPERATIONS // HILLSBORO, OREGON, USA</p>
         </div>
     </footer>
 
-    <!-- Intersection Observer Script for Industrial Fades -->
+    <!-- Intersection Observer Script for Smooth Fluid Transitions -->
     <script>
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
