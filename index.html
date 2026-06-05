@@ -1,128 +1,196 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HUNANIMA - Machines Agricoles Simples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #2e7d32; /* Vert foncé */
-      color: #fdd835; /* Jaune vif */
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-    nav {
-      background-color: #fdd835;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #2e7d32;
-    }
-    .hero {
-      background: url('https://i.pinimg.com/550x/a9/df/51/a9df5172829f8c05f5b92f97553d41ae.jpg') no-repeat center center/cover;
-      height: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 4px #000;
-      font-size: 2em;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    footer {
-      background-color: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    footer p {
-      margin: 5px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NW Surface Rejuvenation LLC | Professional Surface Restoration & Pressure Washing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&family=Work+Sans:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #ffffff; color: #1a1f26; font-family: 'Work Sans', sans-serif; overflow-x: hidden; }
+        .font-brutal { font-family: 'Syncopate', sans-serif; }
+        
+        /* Industrial Pure & Neon Acid Palette */
+        .text-neon { color: #26e6a4; }
+        .bg-neon { background-color: #26e6a4; }
+        .border-neon { border-color: #26e6a4; }
+        .bg-dark-slate { background-color: #11151c; }
+        
+        /* Smooth Scroll Industrial Reveals */
+        .reveal { transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1); opacity: 0; transform: translateY(50px); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        
+        /* Custom Ultra-Thin Scrollbar */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #ffffff; }
+        ::-webkit-scrollbar-thumb { background: #11151c; }
+
+        .strike-link {
+            position: relative;
+        }
+        .strike-link::after {
+            content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background-color: #26e6a4;
+            transition: width 0.3s ease;
+        }
+        .strike-link:hover::after { width: 100%; }
+    </style>
 </head>
-<body>
+<body class="antialiased">
 
-  <header>
-    <h1>HUNANIMA</h1>
-    <p>Machines Agricoles Simples et Fiables</p>
-  </header>
+    <!-- Industrial Minimal Nav -->
+    <nav class="fixed w-full z-50 py-6 px-6 md:px-16 bg-white/90 backdrop-blur-md border-b border-stone-100">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="font-brutal text-sm md:text-base tracking-wider text-dark-slate">
+                NW SURFACE <span class="text-neon">REJUVENATION</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-12 text-[10px] font-bold uppercase tracking-widest text-stone-500">
+                <a href="#matrix" class="strike-link hover:text-dark-slate transition">01 // Scope</a>
+                <a href="#registry" class="strike-link hover:text-dark-slate transition">02 // Info</a>
+                <a href="#action" class="bg-dark-slate text-white px-6 py-3 rounded-none hover:bg-neon hover:text-dark-slate transition duration-300 tracking-normal normal-case text-xs font-bold">Deploy Request</a>
+            </div>
+        </div>
+    </nav>
 
-  <nav>
-    <a href="#about">À propos</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Stage 1: Absolute Pure Opening (Hero) -->
+    <section class="min-h-screen flex items-center relative px-6 md:px-16 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center w-full pt-20">
+            <div class="lg:col-span-7 z-10">
+                <span class="text-dark-slate font-bold tracking-[0.3em] text-[10px] uppercase mb-4 block flex items-center gap-2">
+                    <span class="w-2 h-2 bg-neon rounded-full"></span> High-Performance Restoration
+                </span>
+                <h1 class="font-brutal text-4xl md:text-6xl text-dark-slate leading-tight tracking-tight mb-8">
+                    WE RECLAIM <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-stone-800 to-stone-500">SURFACE INTEGRITY.</span>
+                </h1>
+                <p class="text-stone-600 text-sm md:text-base max-w-lg leading-relaxed mb-12 font-light">
+                    Industrial-grade hydro-blasting, chemical rejuvenation, and structural surface scaling. We strip away decades of environmental wear to reveal original structural strength.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-6">
+                    <a href="#matrix" class="bg-dark-slate text-white font-bold text-xs tracking-widest uppercase px-8 py-4 rounded-none hover:bg-neon hover:text-dark-slate transition duration-300 text-center">
+                        Operational Scope
+                    </a>
+                    <a href="tel:19379672476" class="text-dark-slate font-bold text-xs tracking-widest uppercase py-4 flex items-center justify-center gap-2 transition hover:text-neon">
+                        [ +1 (937) 967-2476 ]
+                    </a>
+                </div>
+            </div>
+            
+            <!-- High-Contrast Clean Processing Image -->
+            <div class="lg:col-span-5 w-full h-[45vh] lg:h-[65vh] bg-stone-100 relative grayscale hover:grayscale-0 transition duration-700 ease-in-out">
+                <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover" alt="Industrial Power Washing and High Pressure Surface Restoration">
+                <div class="absolute inset-0 bg-gradient-to-tr from-dark-slate/20 to-transparent"></div>
+            </div>
+        </div>
+    </section>
 
-  <div class="hero">
-    <p>Votre partenaire pour des machines agricoles durables</p>
-  </div>
+    <!-- Stage 2: Corporate Registry Blueprint (Deep Scroll 1) -->
+    <section id="registry" class="py-40 px-6 md:px-16 bg-stone-50 border-y border-stone-200/50">
+        <div class="max-w-5xl mx-auto reveal">
+            <span class="text-stone-400 font-bold tracking-widest text-[10px] block mb-4">LOGISTICAL OVERVIEW</span>
+            <div class="h-[1px] w-full bg-stone-200 mb-10"></div>
+            <div class="grid md:grid-cols-12 gap-8 items-start">
+                <div class="md:col-span-4 font-brutal text-sm tracking-wider text-dark-slate pt-1">
+                    ENTITY STATUS
+                </div>
+                <div class="md:col-span-8 text-stone-700 font-light text-base md:text-xl leading-relaxed">
+                    Based on the documented infrastructure of **image_8d2a16.jpg**, NW Surface Rejuvenation LLC executes specialized architectural treatments under the direct management of key principal **Timothy E Black**. We deploy heavy-duty blast-cleaning and rehabilitation assets from our localized headquarters station:
+                    <span class="block text-dark-slate font-bold text-base mt-6 uppercase tracking-wider">
+                        907 SE Albertine St, Hillsboro, OR, 97123-5191, United States
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="about">
-    <h2>À propos de nous</h2>
-    <p>
-      Chez <strong>HUNANIMA</strong>, nous nous spécialisons dans la fabrication et la distribution de 
-      <strong>machines agricoles simples</strong> pour faciliter le travail des agriculteurs. 
-      Nos solutions combinent <em>durabilité, efficacité et innovation</em> afin de répondre aux besoins de toutes les exploitations.
-    </p>
-  </section>
+    <!-- Stage 3: Restoration Operations Matrix (Deep Scroll 2) -->
+    <section id="matrix" class="py-44 px-6 md:px-16 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-32 reveal">
+                <span class="text-stone-400 font-bold uppercase tracking-widest text-[10px] block mb-2">Capabilities List</span>
+                <h2 class="font-brutal text-2xl md:text-3xl text-dark-slate">REJUVENATION WORKFLOWS</h2>
+            </div>
 
-  <section id="gallery">
-    <h2>Nos Machines</h2>
-    <div class="gallery">
-      <img src="http://ogden_images.s3.amazonaws.com/www.motherearthnews.com/images/2014/11/22234423/Boaz-Mini-Combine-jpg.jpg" alt="Mini moissonneuse">
-      <img src="https://krs-agro.ru/products/zagotovka_kormov/elho/19/7.jpg" alt="Machine agricole">
-      <img src="https://img.mod-network.net/files/images/6218ac69d37fb/SimpleFarmSilov1000_6222.jpg" alt="Équipement agricole simple">
-    </div>
-  </section>
+            <!-- Absolute Flowing Layout - Zero Enclosing Boxes -->
+            <div class="space-y-44">
+                <!-- Workflow item 1 -->
+                <div class="grid lg:grid-cols-12 gap-16 items-center reveal">
+                    <div class="lg:col-span-6 h-80 w-full overflow-hidden bg-stone-100">
+                        <img src="https://images.unsplash.com/photo-1528740564264-7a952378b330?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter contrast-105" alt="High Pressure Jet Spray Hydro Blasting Concrete Rejuvenation">
+                    </div>
+                    <div class="lg:col-span-6">
+                        <span class="text-stone-400 font-bold text-[11px] block mb-2">METHOD 01 // HYDRO-RENEWAL</span>
+                        <h3 class="font-brutal text-lg text-dark-slate mb-4">High-Pressure Blast Restorations</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed font-light">Eradication of industrial atmospheric carbon, microbial moss layers, and deep-set concrete stains using precision-calibrated thermal water jets.</p>
+                    </div>
+                </div>
 
-  <section id="contact">
-    <h2>Contactez-nous</h2>
-    <p><strong>Email :</strong> admin@tyusex.shop</p>
-    <p><strong>Téléphone :</strong> +33 7 38 50 26 36</p>
-    <p><strong>Adresse :</strong> Avenue Baratier, Montmorency, 95160, France</p>
-  </section>
+                <!-- Workflow item 2 -->
+                <div class="grid lg:grid-cols-12 gap-16 items-center reveal lg:flex-row-reverse">
+                    <div class="lg:order-last lg:col-span-6 h-80 w-full overflow-hidden bg-stone-100">
+                        <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover" alt="Commercial Building Architecture Surface Wash and Cleaning Maintenance">
+                    </div>
+                    <div class="lg:col-span-6">
+                        <span class="text-stone-400 font-bold text-[11px] block mb-2">METHOD 02 // COATINGS & SCALING</span>
+                        <h3 class="font-brutal text-lg text-dark-slate mb-4">Structural Building Stripping</h3>
+                        <p class="text-stone-600 text-sm leading-relaxed font-light">Complete restoration of natural masonry, limestone facings, and exterior structural elements to restore structural breathability and visual prestige.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 HUNANIMA - Tous droits réservés.</p>
-  </footer>
+    <!-- Stage 4: Monolithic Text Strike (Deep Scroll 3) -->
+    <section class="py-36 bg-dark-slate text-white relative">
+        <div class="max-w-5xl mx-auto px-6 reveal text-center">
+            <h3 class="font-brutal text-xl md:text-3xl leading-snug tracking-wide text-white">
+                SURFACE RESTORATION IS THE FIRST STEP TOWARDS <span class="text-neon">ARCHITECTURAL PRESERVATION.</span>
+            </h3>
+        </div>
+    </section>
 
+    <!-- Stage 5: Minimalist Infinite Gateway (Deep Scroll 4) -->
+    <footer id="action" class="py-24 px-6 md:px-16 bg-white border-t border-stone-100">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-end">
+            <div class="lg:col-span-7">
+                <span class="text-stone-400 font-bold tracking-widest text-[10px] block mb-4">COMMUNICATION DIRECTORY</span>
+                <h2 class="font-brutal text-2xl md:text-4xl text-dark-slate mb-12">INITIATE CLEANING CODE.</h2>
+                
+                <div class="space-y-8">
+                    <div>
+                        <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-1">// Digital Intake</span>
+                        <a href="mailto:admin@nwsurfacerejuvenation.com" class="text-lg md:text-xl font-bold text-dark-slate hover:text-neon transition break-all font-mono">admin@nwsurfacerejuvenation.com</a>
+                    </div>
+                    <div>
+                        <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-1">// Voice Node</span>
+                        <a href="tel:19379672476" class="text-lg md:text-xl font-bold text-dark-slate hover:text-neon transition font-mono">+1 (937) 967-2476</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lg:col-span-5 lg:text-right mt-10 lg:mt-0">
+                <span class="text-stone-400 text-[9px] tracking-widest block uppercase font-bold mb-2">// Primary Coordinates</span>
+                <p class="text-stone-700 font-light text-sm md:text-base leading-relaxed uppercase tracking-wider">
+                    907 SE Albertine St<br>
+                    Hillsboro, OR, 97123-5191<br>
+                    United States
+                </p>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto mt-24 pt-8 border-t border-stone-100 flex flex-col md:flex-row justify-between text-[9px] text-stone-400 uppercase tracking-[0.2em] font-bold">
+            <p>&copy; 2026 NW SURFACE REJUVENATION LLC. ALL OPERATIONAL RIGS REGISTERED.</p>
+            <p>HILLSBORO HUB // OREGON, USA</p>
+        </div>
+    </footer>
+
+    <!-- Intersection Observer Script for Industrial Fades -->
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
